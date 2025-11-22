@@ -10,3 +10,4 @@ const juegoSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 module.exports = mongoose.model('Juego', juegoSchema);
+//comit 2.1

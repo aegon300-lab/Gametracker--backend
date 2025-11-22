@@ -8,3 +8,4 @@ const resenaSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 module.exports = mongoose.model('Resena', resenaSchema);
+//comit 2.2
