@@ -4,8 +4,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-const juegoRoutes = require('./routes/juegoRoutes');
-const resenaRoutes = require('./routes/resenaRoutes');
+const juegoRoutes = require('./juegoRoutes');
+const resenaRoutes = require('./resenaRoutes');
 
 const app = express();
 app.use(cors());
@@ -29,3 +29,4 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true 
     console.error('Error conectando a MongoDB:', err.message);
     
   });
+// comit 4.1
