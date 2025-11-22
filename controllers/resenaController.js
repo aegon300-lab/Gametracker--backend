@@ -28,3 +28,4 @@ exports.eliminarResena = async (req, res) => {
     res.json({ message: 'Reseña eliminada' });
   } catch (err) { res.status(400).json({ error: err.message }); }
 };
+//comit 3.2

@@ -28,3 +28,4 @@ exports.eliminarJuego = async (req, res) => {
     res.json({ message: 'Juego eliminado' });
   } catch (err) { res.status(400).json({ error: err.message }); }
 };
+//comit 3.1
